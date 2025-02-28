@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(205, 227, 236);
+    opacity:0.9;
+}
+
+h1{
+    color:black;
+    font-family:Arial;
+    text-transform:capitalize;
+}
+
+p{  
+    color:black;
+    font-family:Arial;
+    font-size:17px;
+}
+
+h2{
+    font-family:Arial;
+}
+
+ul{
+    font-family:Arial;
+}
+
+ol{
+    font-family:Arial;
+}
+
+h1:hover{
+    color:rgb(45, 120, 224);
+    cursor:pointer;
+    transition:5s;
+}
