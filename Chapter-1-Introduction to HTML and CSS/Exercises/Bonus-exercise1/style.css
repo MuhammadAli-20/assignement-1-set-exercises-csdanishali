@@ -1,34 +1,35 @@
-body{
+body {
     background-color:rgb(205, 227, 236);
     opacity:0.9;
 }
 
-h1{
-    color:black;
-    font-family:Arial;
-    text-transform:capitalize;
+h1 {
+  color:black;
+  font-family:Arial;
+  text-transform:capitalize;
 }
 
-p{  
-    color:black;
-    font-family:Arial;
-    font-size:17px;
+p {  
+ color:black;
+ font-family:Arial;
+ font-size:17px;
 }
 
-h2{
-    font-family:Arial;
-}
-
-ul{
+h2 {
     font-family:Arial;
 }
 
-ol{
+ul {
+    font-family:Arial;
+    list-style-type:square;
+}
+
+ol {
     font-family:Arial;
 }
 
-h1:hover{
+h1:hover {
     color:rgb(45, 120, 224);
-    cursor:pointer;
     transition:5s;
 }
+
