@@ -1,35 +1,36 @@
 body {
-    background-color:rgb(205, 227, 236);
-    opacity:0.9;
+    background-color: rgb(205, 227, 236);
+    opacity: 0.9;
 }
 
 h1 {
-  color:black;
-  font-family:Arial;
-  text-transform:capitalize;
+  color: black;
+  font-family: Arial;
+  text-transform: capitalize;
 }
 
 p {  
- color:black;
- font-family:Arial;
- font-size:17px;
+ color: black;
+ font-family: Arial;
+ font-size: 17px;
 }
 
 h2 {
-    font-family:Arial;
+    font-family: Arial;
 }
 
 ul {
-    font-family:Arial;
-    list-style-type:square;
+    font-family: Arial;
+    list-style-type: square;
 }
 
 ol {
-    font-family:Arial;
+    font-family: Arial;
 }
 
 h1:hover {
-    color:rgb(45, 120, 224);
-    transition:5s;
+    color: rgb(45, 120, 224);
+    transition: 5s;
+    cursor: pointer;
 }
 

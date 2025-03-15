@@ -1,76 +1,76 @@
 h1{
-    text-align:center;
+    text-align: center;
 }
 
 p{
-    text-align:justify;
+    text-align: justify;
 }
 
 .Overview-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
 }
 
 .Key-info-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .Cast-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .Creative-team-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .Character-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .Review-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
 
 .Movie-button{
-    background-color:rgb(255, 255, 255);
-    height:30px;
-    border-radius:2px;
-    cursor:pointer;
-    border-width:1px;
-    font-weight:bold;
-    margin-left:8px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    border-width: 1px;
+    font-weight: bold;
+    margin-left: 8px;
 }
