@@ -1,32 +1,40 @@
-.Honda{
+.Honda {
     width: 410px;
     height: 305px;
     display: inline-block;
     filter: saturate(129%);
     cursor: pointer;
-}
+       }
 
-.Porsche{
+.Audi {
     width: 410px;
     height: 305px;
     display: inline-block;
     filter: brightness(130%);
     cursor: pointer;
-}
+      }
 
-.Ferrari{
+.Ferrari {
     width: 410px;
     height: 305px;
     display: inline-block;
     filter: contrast(130%);
     cursor: pointer;
-}
+         }
 
-body{
+body {
     margin: 5px auto;
     width: max-content;
-}
+     }
 
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 20px;
+         }
 
-
-
+.caption {
+    text-align: center;
+         }

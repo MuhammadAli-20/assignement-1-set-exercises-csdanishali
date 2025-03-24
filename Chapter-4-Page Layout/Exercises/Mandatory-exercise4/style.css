@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+   }
+
+header {
+  background-color: #17072b;
+       }
+
+h1 {
+  text-align: center;
+  font-family: Tahoma;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+   }
+
+h2 {
+  font-family: Arial;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: underline;
+}
+
+p {
+  font-family: Arial;
+  }
+
+.Home {
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  margin-left: 450px;
+      }
+
+.About {
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  margin-left: 25px;
+       }
+
+.WhatsOn {
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  margin-left: 25px;
+         }
+
+.Contact {
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  margin-left: 25px;
+         }
+
+.Tickets {
+  cursor: pointer;
+  font-family: Arial;
+  font-weight: 400;
+  color: white;
+  margin-left: 25px;
+          }
+
+
+
+
+

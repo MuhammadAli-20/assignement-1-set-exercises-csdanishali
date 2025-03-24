@@ -1,76 +1,169 @@
-h1{
-    text-align: center;
-}
+body {
+    background-color: rgb(30, 49, 154);
+    color: rgb(255, 255, 255)
+    }
 
-p{
-    text-align: justify;
-}
+h1 {
+   text-align: center;
+   cursor: pointer;
+   transition: 0.9s;
+   }
 
-.Overview-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-}
+h1:hover {
+   opacity: 0.7;
+         }
 
-.Key-info-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+h1:active {
+   color: rgb(255, 251, 0);
+          }
 
-.Cast-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+p {
+   text-align: justify;
+ }
 
-.Creative-team-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+.Overview-button {
+   background-color: rgb(255, 255, 255);
+   height: 30px;
+   transition: 0.5s;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 260px;
+                }
 
-.Character-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+.Overview-button:hover {
+    background: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    letter-spacing: 0.29em;
+                      }
 
-.Review-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+.Overview-button:active {
+    transform: scale(0.55)
+                       }
 
-.Movie-button{
-    background-color: rgb(255, 255, 255);
-    height: 30px;
-    border-radius: 2px;
-    cursor: pointer;
-    border-width: 1px;
-    font-weight: bold;
-    margin-left: 8px;
-}
+.Key-info-button  {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+                 }
+
+.Key-info-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                      }
+              
+.Key-info-button:active {
+   transform: scale(0.55)
+                       }
+
+.Cast-button {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+            }
+
+.Cast-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                   }
+          
+.Cast-button:active {
+   transform: scale(0.55)
+                   }
+
+.Creative-team-button {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+                      }
+
+.Creative-team-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                      }
+                  
+.Creative-team-button:active {
+   transform: scale(0.55)
+                       }
+
+.Character-button {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+                  }
+
+.Character-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                       }
+              
+.Character-button:active {
+   transform: scale(0.55)
+                        }
+
+.Review-button  {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+               }
+
+.Review-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                    }
+              
+.Review-button:active {
+   transform: scale(0.55)
+                     }
+
+.Movie-button  {
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+               }
+
+.Movie-button:hover {
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+                   }
+              
+.Movie-button:active {
+   transform: scale(0.55)
+                    }
