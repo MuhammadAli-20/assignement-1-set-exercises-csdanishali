@@ -1,36 +1,56 @@
-body {
+/* Styling for the body */
+body{
     background-color: rgb(205, 227, 236);
     opacity: 0.9;
-     }
+}
 
-h1 {
-  color: black;
-  font-family: Arial;
-  text-transform: capitalize;
-   }
+/* Styling for the main heading */
+h1{
+    color: black;
+    font-family: Arial;
+    text-transform: capitalize;
+    text-align: center;
+}
 
-p {  
- color: black;
- font-family: Arial;
- font-size: 17px;
-  }
+/* Styling for image */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* Styling for the paragraph */
+p{  
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+/* Styling for the second heading */
 h2 {
     font-family: Arial;
    }
 
-ul {
+/* Styling for unordered lists */
+ul{
     font-family: Arial;
     list-style-type: square;
-   }
+}
 
-ol {
+/* Styling for ordered lists */
+ol{
     font-family: Arial;
-   }
+}
 
-h1:hover {
+/* Hover effect for the h1 tag */
+h1:hover{
     color: rgb(45, 120, 224);
     transition: 5s;
     cursor: pointer;
-         }
+}
+
+/* Styling for the footer section */
+footer{
+    text-align: center;
+}
 

@@ -34,7 +34,7 @@ body {
     gap: 6px;
     padding: 20px;
          }
-
-.caption {
+         
+.image-container {
     text-align: center;
-         }
+}

@@ -1,0 +1,16 @@
+/* Styling for the main heading */
+h1{
+    text-align: center;
+}
+
+/* Styling for image */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for the footer section */
+footer{
+    text-align: center;
+}

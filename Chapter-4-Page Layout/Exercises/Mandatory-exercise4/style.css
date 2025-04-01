@@ -8,6 +8,8 @@
 
 header {
   background-color: #17072b;
+  padding-top: 20px;
+  padding-bottom: 20px;
        }
 
 h1 {
@@ -20,7 +22,7 @@ h1 {
 
 h2 {
   font-family: Arial;
-  font-weight: bold;
+  font-weight: 800;
   color: #000000;
   text-decoration: underline;
 }
@@ -69,7 +71,44 @@ p {
   margin-left: 25px;
           }
 
+main {
+  padding-left: 20px;
+  width: 820px;
+}
 
+footer {
+  background-color: #8c15e9;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+aside {
+  background-color: #172d67;
+  float: right;
+  width: fit-content;
+  height: 455px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  position: relative;
+  margin-top: -458px;
+  
+}
 
+.sidebar-text {
+  color: white;
+  padding-left: 20px;
+}
 
+.sidebar-moretext {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-body-text {
+  font-size: 20px;
+}
