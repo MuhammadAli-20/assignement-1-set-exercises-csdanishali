@@ -1,27 +1,33 @@
-body {
-    background-color: rgb(30, 49, 154);
-    color: rgb(255, 255, 255)
-    }
+/* Styling for the body */
+body{
+   background-color: rgb(30, 49, 154);
+   color: rgb(255, 255, 255)
+}
 
-h1 {
+/* Styling for the main heading */
+h1{
    text-align: center;
    cursor: pointer;
    transition: 0.9s;
-   }
+}
 
-h1:hover {
+/* Hover effect for the h1 tag */
+h1:hover{
    opacity: 0.7;
-         }
+}
 
-h1:active {
+/* Active effect for the h1 tag */
+h1:active{
    color: rgb(255, 251, 0);
-          }
+}
 
-p {
+/* Styling for the paragraph */
+p{
    text-align: justify;
- }
+}
 
-.Overview-button {
+/* Styling for different buttons */
+.Overview-button{
    background-color: rgb(255, 255, 255);
    height: 30px;
    transition: 0.5s;
@@ -30,40 +36,19 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 260px;
-                }
+}
 
-.Overview-button:hover {
-    background: var(--clr);
-    box-shadow: 0 0 35px var(--clr);
-    letter-spacing: 0.29em;
-                      }
-
-.Overview-button:active {
-    transform: scale(0.55)
-                       }
-
-.Key-info-button  {
-   background-color: rgb(255, 255, 255);
-   transition: 0.5s;
-   height: 30px;
-   border-radius: 2px;
-   cursor: pointer;
-   border-width: 1px;
-   font-weight: bold;
-   margin-left: 8px;
-                 }
-
-.Key-info-button:hover {
+.Overview-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                      }
-              
-.Key-info-button:active {
+}
+
+.Overview-button:active{
    transform: scale(0.55)
-                       }
+}
 
-.Cast-button {
+.Key-info-button{
    background-color: rgb(255, 255, 255);
    transition: 0.5s;
    height: 30px;
@@ -72,19 +57,40 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 8px;
-            }
+}
 
-.Cast-button:hover {
+.Key-info-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                   }
+}
+              
+.Key-info-button:active{
+   transform: scale(0.55)
+}
+
+.Cast-button{
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s;
+   height: 30px;
+   border-radius: 2px;
+   cursor: pointer;
+   border-width: 1px;
+   font-weight: bold;
+   margin-left: 8px;
+}
+
+.Cast-button:hover{
+   background: var(--clr);
+   box-shadow: 0 0 35px var(--clr);
+   letter-spacing: 0.29em;
+}
           
-.Cast-button:active {
+.Cast-button:active{
    transform: scale(0.55)
-                   }
+}
 
-.Creative-team-button {
+.Creative-team-button{
    background-color: rgb(255, 255, 255);
    transition: 0.5s;
    height: 30px;
@@ -93,19 +99,19 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 8px;
-                      }
+}
 
-.Creative-team-button:hover {
+.Creative-team-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                      }
+}
                   
-.Creative-team-button:active {
+.Creative-team-button:active{
    transform: scale(0.55)
-                       }
+}
 
-.Character-button {
+.Character-button{
    background-color: rgb(255, 255, 255);
    transition: 0.5s;
    height: 30px;
@@ -114,19 +120,19 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 8px;
-                  }
+}
 
-.Character-button:hover {
+.Character-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                       }
+}
               
-.Character-button:active {
+.Character-button:active{
    transform: scale(0.55)
-                        }
+}
 
-.Review-button  {
+.Review-button{
    background-color: rgb(255, 255, 255);
    transition: 0.5s;
    height: 30px;
@@ -135,19 +141,19 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 8px;
-               }
+}
 
-.Review-button:hover {
+.Review-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                    }
+}
               
-.Review-button:active {
+.Review-button:active{
    transform: scale(0.55)
-                     }
+}
 
-.Movie-button  {
+.Movie-button{
    background-color: rgb(255, 255, 255);
    transition: 0.5s;
    height: 30px;
@@ -156,14 +162,14 @@ p {
    border-width: 1px;
    font-weight: bold;
    margin-left: 8px;
-               }
+}
 
-.Movie-button:hover {
+.Movie-button:hover{
    background: var(--clr);
    box-shadow: 0 0 35px var(--clr);
    letter-spacing: 0.29em;
-                   }
+}
               
-.Movie-button:active {
+.Movie-button:active{
    transform: scale(0.55)
-                    }
+}

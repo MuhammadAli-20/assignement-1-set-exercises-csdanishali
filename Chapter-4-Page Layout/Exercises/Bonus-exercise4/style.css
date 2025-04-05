@@ -1,2 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color: rgb(89, 117, 255);
+}
+
+header{
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(101, 13, 183);
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 30px;
+    margin-top: -10px;
+}
+  
+.navbar{
+    display: inline;
+    display: flex;
+    list-style: none;
+  }
+  
+.navbar a{
+    color: rgb(255, 255, 255);
+    padding: 70px;
+}
+
+
 
   
