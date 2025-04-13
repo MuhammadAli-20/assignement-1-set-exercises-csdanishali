@@ -39,6 +39,49 @@ nav{
     padding: 70px;
 }
 
+h2{
+    padding-left: 104px;
+    color: aliceblue;
+}
+
+.HTML{
+    padding-left: 90px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.CSS{
+    padding-left: 90px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.JavaScript{
+    padding-left: 70px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 320px;
+    height: 180px;
+    color: aliceblue;
+    background: linear-gradient(purple,red);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+a{
+    padding-left: 10px;
+    color: white;
+}
+
+
 
 
   
