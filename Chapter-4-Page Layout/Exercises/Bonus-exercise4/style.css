@@ -39,9 +39,23 @@ nav{
     padding: 70px;
 }
 
-h2{
+.Resource{
     padding-left: 104px;
     color: aliceblue;
+}
+
+.About{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: -606px;
+}
+
+.Assignment{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: -368px;
 }
 
 .HTML{
@@ -70,10 +84,40 @@ h2{
 .container{
     width: 320px;
     height: 180px;
-    color: aliceblue;
-    background: linear-gradient(purple,red);
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
     border-radius: 20px;
     margin: 10px;
+}
+
+.second-container{
+    text-align: center;
+    width: 320px;
+    height: 220px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.third-container{
+    text-align: center;
+    width: 320px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
+    border-radius: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 88%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
 }
 
 a{
