@@ -51,11 +51,29 @@ nav{
     top: -606px;
 }
 
-.Assignment{
+.Assessment{
     color: aliceblue;
     text-align: center;
     position: relative;
-    top: -320px;
+    top: -312px;
+}
+
+.Tutor{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: -660px;
+    padding-left: 1000px;
+    right: 2%;
+}
+
+.Module{
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    top: -450px;
+    padding-left: 1000px;
+    right: 2%;
 }
 
 .HTML{
@@ -108,14 +126,44 @@ nav{
 .third-container{
     text-align: center;
     width: 320px;
-    height: 187px;
+    height: 160px;
     color: rgb(255, 255, 255);
     background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
     border-radius: 20px;
     margin: 20px;
     position: absolute;
-    top: 100%;
+    top: 99%;
     left: 49%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.fourth-container{
+    text-align: center;
+    width: 320px;
+    height: 140px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
+    border-radius: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 39%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.fifth-container{
+    text-align: center;
+    width: 320px;
+    height: 315px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
+    border-radius: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 99%;
+    left: 85%;
     transform: translate(-50%, -50%);
     padding: 20px;
 }
@@ -125,6 +173,14 @@ a{
     color: white;
 }
 
+/* Styling for the footer section */
+footer{
+    background-color: #00bbff;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
 
