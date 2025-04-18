@@ -8,44 +8,55 @@
 
 </head>
 <body>
+  <h1>Audio Sampler</h1>
 
-    <h1>Audio Sampler</h1>
-
-    <audio 
-    id="ah ha" src="ah-ha.mp3">
-    </audio>
-    
-    <audio 
-    id="back of the net" src="back-of-the-net.mp3">
-    </audio>
-    
-    <audio 
-    id="bang out of order" src="bangoutoforder.mp3">
-    </audio>
+  <div class="container">
+    <div class="left-side">
+      <input type="text" id="text-to-speech" placeholder="Enter a text to speak"/>
+      <button type="button" onclick="textToAudio()">Speak</button>
+    </div>
 
     <audio 
-    id="dan" src="dan.mp3">
+    id="Ah Ha" src="ah-ha.mp3">
     </audio>
     
     <audio 
-    id="email of the evening" src="emailoftheevening.mp3">
+    id="Back of the net" src="back-of-the-net.mp3">
     </audio>
     
     <audio 
-    id="hello partridge" src="hellopartridge.mp3">
-    </audio>
-    
-    <audio 
-    id="i ate a scotch egg" src="iateascotchegg.mp3">
-    </audio>
-    
-    <audio 
-    id="im confused" src="imconfused.mp3">
+    id="Bang out of order" src="bangoutoforder.mp3">
     </audio>
 
-    <div id="buttons"></div>
-
-    <script src="script.js"></script>
+    <audio 
+    id="Dan" src="dan.mp3">
+    </audio>
     
+    <audio 
+    id="Email of the evening" src="emailoftheevening.mp3">
+    </audio>
+    
+    <audio 
+    id="Hello Partridge" src="hellopartridge.mp3">
+    </audio>
+    
+    <audio 
+    id="I ate a scotch egg" src="iateascotchegg.mp3">
+    </audio>
+    
+    <audio 
+    id="Im confused" src="imconfused.mp3">
+    </audio>
+    
+    <audio 
+    id="Jurassic Park" src="jurassic-park.mp3">
+    </audio>
+
+    <div class="right-side" id="buttons">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>

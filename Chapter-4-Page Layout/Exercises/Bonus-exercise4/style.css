@@ -55,7 +55,7 @@ nav{
     color: aliceblue;
     text-align: center;
     position: relative;
-    top: -368px;
+    top: -320px;
 }
 
 .HTML{
@@ -108,13 +108,13 @@ nav{
 .third-container{
     text-align: center;
     width: 320px;
-    height: 150px;
+    height: 187px;
     color: rgb(255, 255, 255);
     background: linear-gradient(rgb(53, 86, 255),rgb(53, 86, 255));
     border-radius: 20px;
     margin: 20px;
     position: absolute;
-    top: 88%;
+    top: 100%;
     left: 49%;
     transform: translate(-50%, -50%);
     padding: 20px;
