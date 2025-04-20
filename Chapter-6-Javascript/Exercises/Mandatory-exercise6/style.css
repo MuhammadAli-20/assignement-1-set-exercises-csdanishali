@@ -1,11 +1,13 @@
+/* Apply styles to all HTML elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling for the entire webpage */
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(127, 125, 255);
     justify-content: center;
     display: flex;
     align-items: center;
@@ -20,11 +22,13 @@ body {
     padding: 20px;
 }
 
-h1 {
+/* Styling for the header section */
+header {
     font-weight: 700;
     margin-bottom: 10px;
 }
 
+/* Styling for different classes of divs */
 .costinfo {
     display: block;
     font-size: 16px;
@@ -45,6 +49,7 @@ input {
     border-radius: 5px;
 }
 
+/* Styling for button */
 button {
     width: 150px;
     padding: 10px;

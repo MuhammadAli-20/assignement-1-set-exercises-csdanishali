@@ -1,4 +1,10 @@
-/* Styling for the main heading */
+/* Styling for the entire webpage */
+body{
+    background-color: bisque;
+    font-family: 'Times New Roman';
+}
+
+/* Styling for main heading (h1) */
 h1{
     text-align: center;
 }

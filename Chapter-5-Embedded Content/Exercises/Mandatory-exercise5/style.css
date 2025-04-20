@@ -1,9 +1,11 @@
+/* Apply styles to all HTML elements */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Styling for the entire webpage */
 body{
     display: flex;
     height: 100vh;
@@ -11,6 +13,7 @@ body{
     align-items: center;
 }
 
+/* Styling for the video player */
 video{
     max-width: 900px;
 }

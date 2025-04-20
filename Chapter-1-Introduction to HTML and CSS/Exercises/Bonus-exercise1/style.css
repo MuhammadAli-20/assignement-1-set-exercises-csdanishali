@@ -1,3 +1,4 @@
+/* Styling for all HTML elements */
 *{
     padding: 0;
     margin: 0;
@@ -5,13 +6,13 @@
     font-family: 'Times New Roman';
 }
 
+/* Styling for the entire webpage */
 body{
     background-color: #05c3d1;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
-
+/* Styling for main heading (h1) */
 .container h1.heading1
 {
     color: aliceblue;
@@ -21,6 +22,7 @@ body{
                  15px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Styling for secondry headings (h2) */
 .container2 h2.heading2
 {
     color: rgb(201, 211, 255);
@@ -44,21 +46,25 @@ body{
     color: aliceblue;
 }
 
-article {
+/* Styling for article content sections */
+article{
     padding-left: 35px;
     padding-right: 35px;
     color: black;
 }
-  
-pre {
+
+/* Styling for preformatted text */
+pre{
+    font-family: 'Times New Roman';
     background-color: #f4f4f4;
     padding: 10px;
     overflow-x: auto;
     border-left: 5px solid #003366;
 }
-  
-code {
-    font-family: Consolas, monospace;
+
+/* Styling for inline code snippets */
+code{
+    font-family: 'Times New Roman';
     color: #c7254e;
     padding: 2px 4px;
     border-radius: 3px;
@@ -68,4 +74,6 @@ code {
 footer{
     text-align: center;
     color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

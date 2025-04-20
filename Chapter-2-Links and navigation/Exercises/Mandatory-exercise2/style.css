@@ -1,10 +1,10 @@
-/* Styling for the body */
+/* Styling for the entire webpage */
 body{
     background-color: rgb(30, 49, 154);
     color: rgb(255, 255, 255)
 }
 
-/* Styling for the main heading */
+/* Styling for main heading (h1) */
 h1{
     text-align: center;
     cursor: pointer;
@@ -21,7 +21,7 @@ h1:active{
     color: rgb(255, 251, 0);
 }
 
-/* Styling for the paragraph */
+/* Styling for paragraph text*/
 p{
     text-align: justify;
 }

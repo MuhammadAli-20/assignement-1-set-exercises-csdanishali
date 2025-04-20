@@ -1,4 +1,11 @@
-.divA {
+/* Styling for the entire webpage */
+body{
+  margin: 100px auto;
+  width: max-content;
+}
+
+/* Styling for different classes of divs */
+.divA{
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
@@ -11,9 +18,9 @@
     border-color:blueviolet;
     cursor: pointer;
     box-shadow: 10px 15px 20px red;
-  }
+}
   
-  .divB {
+.divB{
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
@@ -26,9 +33,9 @@
     border-color: #5EF732;
     cursor: pointer;
     box-shadow: inset 12px 12px 10px #000;
-  }
+}
   
-  .divC {
+.divC{
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
@@ -44,9 +51,9 @@
     box-shadow: 0 0 0 10px rgb(65 10 255),
                 0 0 0 20px rgb(255 42 42),
                 0 0 0 30px rgb(0, 118, 0);      
-  }
+}
   
-  .divD {
+.divD{
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
@@ -59,9 +66,5 @@
     border-color: #be1616;
     cursor: pointer;
     text-shadow: 5px 5px 1px;
-  }
+}
   
-  body {
-    margin: 100px auto;
-    width: max-content;
-  }

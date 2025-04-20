@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Gussing Game</title> <!-- Specifies the title of the webpage that appears in the browser tab -->
+    <!-- Link for the external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+<header>
+    <h1>Color Guessing Game</h1>
+</header>
+
+<!-- Main Section -->
+<main>
+<div>
+    <p id="colors">(R , G , B)</p>
+</div>
+
+<div id="box">
+    <button class="btn" id="0" onclick="guess()"></button>
+    <button class="btn" id="1" onclick="guess()"></button>
+    <button class="btn" id="2" onclick="guess()"></button>
+</div>
+
+<div id="re">
+    <button id="replay" onclick="replay()" style="--clr: #daffd6">Replay</button>
+</div>
+</main>
+
+<!-- Link for the external JavaScript file -->
+<script src="index.js"></script>
+    
+</body>
+</html>

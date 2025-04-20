@@ -1,3 +1,4 @@
+/* Apply styles to all HTML elements */
 *{
   padding: 0;
   margin: 0;
@@ -13,7 +14,7 @@ header{
   padding-bottom: 20px;
 }
 
-/* Styling for the main heading */
+/* Styling for main heading (h1) */
 h1{
   text-align: center;
   font-family: Tahoma;
@@ -22,7 +23,7 @@ h1{
   text-decoration: underline;
 }
 
-/* Styling for the second heading */
+/* Styling for secondry headings (h2) */
 h2{
   font-family: Arial;
   font-weight: 800;
@@ -30,7 +31,7 @@ h2{
   text-decoration: underline;
 }
 
-/* Styling for the paragraph */
+/* Styling for paragraph text */
 p{
   font-family: Arial;
 }
@@ -82,15 +83,6 @@ main{
   width: 820px;
 }
 
-/* Styling for the footer section */
-footer{
-  background-color: #8c15e9;
-  text-align: center;
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
 /* Styling for the aside section */
 aside{
   background-color: #172d67;
@@ -105,12 +97,12 @@ aside{
   margin-top: -458px;
 }
 
-.sidebar-text{
+.asidebar-text{
   color: white;
   padding-left: 20px;
 }
 
-.sidebar-moretext{
+.asidebar-moretext{
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -118,4 +110,13 @@ aside{
 
 .main-body-text{
   font-size: 20px;
+}
+
+/* Styling for the footer section */
+footer{
+  background-color: #8c15e9;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
