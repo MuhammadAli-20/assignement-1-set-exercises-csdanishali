@@ -1,12 +1,12 @@
 /* Apply styles to all HTML elements */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Styling for the entire webpage */
-body {
+body{
     background-color: rgb(127, 125, 255);
     justify-content: center;
     display: flex;
@@ -23,25 +23,25 @@ body {
 }
 
 /* Styling for the header section */
-header {
+header{
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 /* Styling for different classes of divs */
-.costinfo {
+.costinfo{
     display: block;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-.literinfo {
+.literinfo{
     display: block;
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-input {
+input{
     width: 100%;
     padding: 10px;
     outline: none;
@@ -50,7 +50,7 @@ input {
 }
 
 /* Styling for button */
-button {
+button{
     width: 150px;
     padding: 10px;
     font-size: 16px;
@@ -62,12 +62,12 @@ button {
     margin-bottom: 10px;
 }
 
-button:hover {
+button:hover{
     cursor: pointer;
     background-color: #00ff6a;
 }
 
-.totalcost {
+.totalcost{
     font-size: 20px;
     font-weight: 900;
 }

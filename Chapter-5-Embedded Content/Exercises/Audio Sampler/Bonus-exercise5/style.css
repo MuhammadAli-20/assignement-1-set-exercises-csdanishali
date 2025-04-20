@@ -1,51 +1,51 @@
 /* Styling for the entire webpage */
-body {
+body{
     background: darkseagreen;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 20px;
     height: 100vh;
     overflow: hidden;
-  }
+}
 
 /* Styling for the header section */
   header{
     text-align: center;
 }
 
-  .container {
+  .container{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-  }
+}
   
-  .left-side {
+  .left-side{
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 40px;
-  }
+}
   
-  .right-side {
+  .right-side{
     width: 55%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     padding-top: 100px;
-  }
+}
   
-  input {
+  input{
     padding: 10px;
     width: 100%;
     border-radius: 5px;
     border: solid 2px #BBB;
     font-size: 16px;
-  }
+}
 
 /* Styling for buttons */
-  button {
+  button{
     padding: 10px;
     background-color: #6a67ce;
     color: #FFFFFF;
@@ -54,9 +54,9 @@ body {
     border-radius: 5px;
     font-size: 16px;
     margin-top: 10px;
-  }
+}
   
-  .btn {
+  .btn{
     color: aliceblue;
     background-color: coral;
     border-radius: 5px;
@@ -64,12 +64,12 @@ body {
     height: 80px;
     cursor: pointer;
     font-size: 15px;
-  }
+}
   
-  .btn:hover {
+  .btn:hover{
     background-color: burlywood;
     color: black;
-  }
+}
   
 
 

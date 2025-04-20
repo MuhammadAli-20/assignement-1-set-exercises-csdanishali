@@ -1,4 +1,3 @@
-
 const costInput = document.getElementById('costinfo');
 const litersInput = document.getElementById('literinfo');
 const calculatebtn = document.getElementById('calculatebtn');
